@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://zupimages.net/up/23/26/wi84.png");
+  background-size: cover;
+  margin: 0; /* Ajout pour enlever les marges par défaut du body */
+  display: flex; /* Ajout pour utiliser Flexbox */
+  justify-content: center; /* Ajout pour centrer horizontalement */
+  align-items: center; /* Ajout pour centrer verticalement */
+}
+
+.container {
+  display: flex; /* Ajout pour utiliser Flexbox */
+  justify-content: center; /* Ajout pour centrer horizontalement */
+  align-items: center; /* Ajout pour centrer verticalement */
+  height: 100vh; /* Ajout pour occuper toute la hauteur de la fenêtre */
+}
+
+  .block {
+  font-family: Comic Sans MS, Comic Sans,       cursive;
+  background: #000000d0;
+  color: white;
+  padding: 1em;
+  border-radius: 30px;
+  max-width: 420px;
+  text-align: center;
+}
